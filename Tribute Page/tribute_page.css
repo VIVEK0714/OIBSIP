@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: black;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.header {
+  padding: 2rem;
+  margin: 1rem 0px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 1rem;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0px auto;
+  background: #fff;
+  color: #000;
+  align-items: center;
+  padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 1rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.tribute blockquote::before {
+  content: open-quote;
+  font-size: 6rem;
+  color: red;
+  position: absolute;
+  left: 1rem;
+  top: -1rem;
+}
+
+.tribute cite {
+  display: block;
+  font-size: 1.5rem;
+  color: green;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.tribute img {
+  display: block;
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bio {
+  padding: 2rem;
+  max-width: 78rem;
+  margin: 0px auto;
+  background-color: white;
+  color: black;
+}
+
+.bio .childhood .international.ipl {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.bio .childhood .international .ipl img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bio h2 {
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.bio p {
+  line-height: 1.5;
+  text-align: justify;
+  padding: 1rem 0;
+}
+
+.bio hr {
+  border: 0;
+  height: 2px;
+  background-color: #ccc;
+  margin: 2rem 0;
+}
+
+.bio .international,
+.bio .ipl,
+.bio .iplrecords,
+.bio .awards {
+  margin-bottom: 2rem;
+}
+
+.bio table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.bio table th,
+.bio table td {
+  padding: 0.5rem;
+  border: 1px solid #000;
+}
+
+.bio table th {
+  background-color: #f2f2f2;
+}
+
+.bio .awards .list {
+  padding: 1rem;
+}
+
+.bio .awards h2 {
+  margin-bottom: 1rem;
+}
+
+.bio .awards li {
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  text-align: center;
+}
+.awards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0 100px; 
+}
+
+.images img {
+  max-width: 45%; 
+  height: auto;
+  margin: 0;
+}
